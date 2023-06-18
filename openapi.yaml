@@ -1,4 +1,4 @@
-openapi: "3.0.0"
+openapi: "3.1.0"
 info:
   description: a customer relation manager for a kayak rental shop
   title: Customer Relation Manager API
@@ -48,7 +48,6 @@ paths:
             application/json:
               example:
                 error: The request payload is not in JSON format
-openapi: 3.0.2
 components:
   schemas:
     Customer:
